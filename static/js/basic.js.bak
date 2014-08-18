@@ -1,5 +1,5 @@
 base.addScript(RELATIVE_PATH+'js/base/base.js');
-base.addScript(RELATIVE_PATH+'js/theme/default/res-images.js');
+base.addScript(RELATIVE_PATH+'js/themes/default/res-images.js');
 base.addScript(RELATIVE_PATH+'js/base/component/table.js');
 base.addScript(RELATIVE_PATH+'js/base/component/button.js');
 base.addScript(RELATIVE_PATH+'js/base/component/search_input.js');
