@@ -3,16 +3,6 @@
   <head>
     <meta charset='utf-8'>
     <link rel="stylesheet" type="text/css" href="static/css/basic.css"/>
-	<link rel="shortcut icon" href="/qyhweb/static/favicon.ico" />
-	<script>
-		RELATIVE_PATH = "static/";
-	</script>
-	<script type="text/javascript" src="static/third/jquery-1.7.2.min.js"></script>
-	<script type="text/javascript" src="static/js/base/base.js"></script>
-	<script type="text/javascript" src="static/js/basic.js"></script>
-
-	
-
 	<style>
 		/*Resume*/
 		.content{width:630px;margin:10px auto;padding:25px;line-height:32px;background:#fff;border:1px solid #dadada;}
@@ -41,24 +31,6 @@
 		<div>个人博客地址:<a href="http://www.akunsoft.com" target="_blank" title="个人博客">http://www.akunsoft.com</a></div>
 		<div><a href="static/file/doc/郑志昆-前端开发工程师-简历@201408.doc" title="点击下载简历">点击下载简历</a></div>
 	</div>
-	<div class="content">
-		<p>首先说声抱歉，拖延症愈发严重了，想周末好好的点东西出来，室友在看离婚律师，结果没忍住，只好推迟更新了！</p>
-		<p>
-			关于博主 大毕业就来了北京，漂了一年多了，毕业前在北京参见了5个月的java培训，现在是一名前端工程师。
-		</p>
-		<p>周末终于启用了姓名域名，对此不得不感慨一下 回顾一下 还是挺有趣的 很久之前大概是大一大二的时候 就开始瞎整博客什么的  那时候什么都不太会 就只会瞎折腾 刚开始是用二级域名 域名也换过好几个 用的emlog搭建的博客 还会改改模板 换换图片什么的  买域名、空间 还写博客也坚持了一段时间</p>
-		<p>
-			那时候什么都不会、却很能折腾。
-		</p>
-		content
-	</div>
-	<div class="content">
-		blog content
-	</div>
-	<div class="content">
-		blog 
-	</div>
-	<!--
 	<div class="content">
 		<div class="top">
 			<div class="top-title">个人简历</div>
@@ -203,37 +175,6 @@
 				</div>
 			</div>
 		</div>
-		-->
 	</div>  
   </body>
-  <script>
-  $(function(){
-	 var navi_data = 
-			 [{data:{label:'说明',index:0}},
-			 {data:{label:'个人简历WEB版',index:1}},
-			 {data:{label:'个人博客',index:2}}
-	];
-	
-
-	var select = function(inx,ele,data){
-		console.log(inx);
-		$('.content').each(function(i){
-			if(i==inx){
-				$(this).show();
-			}else{
-				$(this).hide();
-			}
-		});
-	};
-
-	var t = new base.component.TabNavi({
-				cb_select:select,
-				default_index:2,
-			});
-			$('.prompt').append(t.getRoot());
-			t.reflushData(navi_data);
-		//common.getButton: function(_text, cb_click, _type) {
-  
-  });
-  </script>
 </html>
