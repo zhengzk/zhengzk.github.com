@@ -31,4 +31,8 @@ $(function(){
 	});
 	$(naviCon).append(t.getRoot());
 	t.reflushData(navi_data);
+	
+	$(window).resize(function(){
+		tb.init();
+	});
 })
