@@ -1,1 +1,6 @@
 _site
+Sass
+.sass-cache
+
+node_modules
+.project
