@@ -1,168 +1,194 @@
 <!DOCTYPE html>
 <html>
-
-  {% include head.html %}
-
-  <body>
+<head>
+	{% include head.html %}
+	<link rel="stylesheet" href="../static/css/resume.css"/>
+	<style>
+		div{
+			margin: 0;
+			padding: 0;
+		}
+	</style>
+</head>
+<body>
 
     {% include header.html %}
 
     <div class="page-content">
-      <div class="wrapper">
-      	
-        {{ content }}
-        <div class="download"><a href="{{"/static/file/doc/郑志昆-前端开发工程师-简历@201408.doc" | prepend: site.baseurl | prepend: site.url }}" title="点击下载简历">点击下载简历</a></div>
-        
-        <div class="content">
-		<div class="top">
-			<div class="top-title">个人简历</div>
-		</div>
-		<div>
-			<div>
-				<div class="title">个人概况：</div>
-				<div  class="inline w475">
-					<div>
-						<div>
-							<div class="inline w150">姓名：郑志昆</div>
-							<div class="inline w150">性别：男</div>
-							<div class="inline">年龄：24</div>
-						</div>
-						<div>
-							<div class="inline w250">手机：18511588935</div>
-							<div class="inline" >邮箱：<a href="mailto:Studyc@163.com">Studyc@163.com</a></div>
-						</div>
-						<div>
-							<div class="inline w250">毕业院校：新疆农业大学(2013年)</div>
-							<div class="inline">专业：信息管理与信息系统</div>
-						</div>
-						<div>
-							<div class="inline" >目标职位：</div>
-							<div class="inline"><b>前端工程师</b>(基于JavaScript的富客户端Web应用开发)</div>
-						</div>
-					</div>
-					<div>
-						<div class="inline title">掌握技能:</div>
-						<div class="indent30">HTML、JavaScript、CSS、jQuery、Ajax、Java、MySQL.</div>
-					</div>
-				</div>
-				<div class="inline">
-					<img src="{{ "/static/images/zhengzk_bj.png" | prepend: site.baseurl | prepend: site.url }}"  class="photo" height="175px" width="120px"/>
-				</div>
-			</div>
-			<div>
-				<div class="title">工作经历：</div>
-				<div>
-					<div>
-						<div class="inline exp-job">职位:前端工程师 </div>
-						<div class="inline exp-date">日期:2014年5月至今</div>
-						<div class="inline">名称:北京清晏九州旅游服务管理有限公司</div>
-					</div>
-					<div>
-						<div class="inline">工作职责：</div>
-						<div class="inline">
-							<p>1、前后端交互(数据定义、处理等)。</p>
-							<p>2、页面解构、交互、效果、及业务功能实现。</p>
-							<p>3、浏览器兼容性问题、前端页面性能优化处理。</p>
-							<p>4、完成对页面的测试和修改工作。</p>
-						</div>
-					</div>
-				</div>
-				<div>
-					<div>
-						<div class="inline exp-job">职位:前端工程师 </div>
-						<div class="inline exp-date">日期:2013年7月至2014年5月</div>
-						<div class="inline">名称:北京思特奇信息技术股份有限公司</div>
-					</div>
-					<div>
-						<div class="inline">工作职责：</div>
-						<div class="inline">
-								<p>1、页面的效果的实现(页面解构、实现、浏览器兼容性bug修复等)。</p>
-								<p>2、根据需求完成相应的业务功能(前端数据、业务等的处理)。</p>
-								<p>3、完成相关业务功能的测试和修改工作。</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div>
-				<div class="title">培训经历：</div>
-				<div>机构名称：达内科技教育集团北京中关村中心</div>
-				<div>
-					<div class="inline w250">培训日期：2012年12月—2013年5月</div>
-					<div class="inline w250">培训方向：Java软件技术培训</div>
-				</div>
-				<div>
-					<div class="inline">培训内容：</div>
-					<div class="inline w550">
-						Java语言基础、面向对象、JDK核心API、JavaSE核心、SQL语言、数据库、JDBC、JSP/Servlet、Struts2、Hibernate、Spring等JavaWeb开发相关技术。
-					</div>
-				</div>
-			</div>
-			<div>
-				<div class="title">项目经验:</div>
-				<div>
-					<div class="inline project-title">中国移动网上商城服务子系统</div>
-					<div class="inline project-date">项目时间：2013年8月-2014年5月 </div>
-					<div class="indent30">
-						<p>
-							该项目目标用户量大、最终采用富客户端编程方式、产品最终为一单页web应用。在该项目中从事前端开发工作。根据业务需求，使用面向对象的JS对页面进行合理解构、封装、及功能的实现，同时解决浏览器(IE6+ Chrome Firefox Safari等)兼容性问题。业务方面主要负责充值交费、充值卡充值、充值号码簿、业务查询退订、商品收藏、等功能模块的实现。
-						</p>
-						<p>
-						通过该项目深入了解和学习了HTML、CSS、JS等技术，对前端领域有了更深的认识、开始步入前端开发。积累了前端MVC、存储、前后端交互的经验，同时学会了页面的合理解构、用JS进行基础组件开发、如何避免一些兼容性问题等，为前端开发打下了良好的基础。
-						<p>
-					</div>
-				</div>
+        <div class="wrapper">
+			{{ content }}
 
+            <div class="download">
+                <a href="{{"/static/file/doc/郑志昆-前端开发工程师-简历@201408.doc " | prepend: site.baseurl | prepend: site.url }}" title="点击下载简历">点击下载简历</a>
+            </div>
+            
+            <div class="navi"></div>
+			<div class="content" style="display:none;">
 				<div>
-					<div class="inline project-title">清晏九洲官网开发</div>
-					<div class="inline project-date">项目时间：2014年5月-至今  </div>
-					<div class="indent30">
-						<p>
-							该项目为实现企业官网开发工作。在项目中主要负责前后端交互、数据定义、页面数据交互、效果呈现、解决浏览器兼容性问题、前端页面优化等工作。
-						</p>
-						<p>
-							对前端开发及企业官网有了更多的认识、该项目中不仅要求浏览器的兼容性、同时重视页面各种效果的实现。在该项目中积累了图片切换、轮播、弹出、遮罩、下拉等效果的实现、在页面表现层有了横向的拓展。
-						<p>
-					</div>
+					<p>一个土生土长的新疆人，现在北京从事IT业，是一个乐观积极上进的小伙。</p>
 				</div>
+				<div style="border: 1px solid #DADADA;width: 300px;margin:10px 0px;text-indent: 20px;">
+					<div style="font-size: 18px;">郑志昆</div>
+					<div>前端工程师</div>
+				</div>
+				<div id="tb"></div>
+				
+				<div>
+					<p>在前端领域正在逐渐成长</p>
+				</div>
+			</div>
+       
+            <div class="content">
+                <div class="top">
+                    <div class="top-title">个人简历</div>
+                </div>
+                <div>
+                    <div>
+                        <div class="title">个人概况：</div>
+                        <div class="inline w475">
+                            <div>
+                                <div>
+                                    <div class="inline w150">姓名：郑志昆</div>
+                                    <div class="inline w150">性别：男</div>
+                                    <div class="inline">年龄：24</div>
+                                </div>
+                                <div>
+                                    <div class="inline w250">手机：18511588935</div>
+                                    <div class="inline">邮箱：<a href="mailto:Studyc@163.com">Studyc@163.com</a>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="inline w250">毕业院校：新疆农业大学(2013年)</div>
+                                    <div class="inline">专业：信息管理与信息系统</div>
+                                </div>
+                                <div>
+                                    <div class="inline">目标职位：</div>
+                                    <div class="inline"><b>前端工程师</b>(基于JavaScript的富客户端Web应用开发)</div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="inline title">掌握技能:</div>
+                                <div class="indent30">HTML、JavaScript、CSS、jQuery、Ajax、Java、MySQL.</div>
+                            </div>
+                        </div>
+                        <div class="inline">
+                            <img src="{{ "/static/images/zhengzk_bj.png " | prepend: site.baseurl | prepend: site.url }}" class="photo" height="175px" width="120px" />
+                        </div>
+                    </div>
+                    <div>
+                        <div class="title">工作经历：</div>
+                        <div>
+                            <div>
+                                <div class="inline exp-job">职位:前端工程师 </div>
+                                <div class="inline exp-date">日期:2014年5月至今</div>
+                                <div class="inline">名称:北京清晏九州旅游服务管理有限公司</div>
+                            </div>
+                            <div>
+                                <div class="inline">工作职责：</div>
+                                <div class="inline">
+                                    <p>1、前后端交互(数据定义、处理等)。</p>
+                                    <p>2、页面解构、交互、效果、及业务功能实现。</p>
+                                    <p>3、浏览器兼容性问题、前端页面性能优化处理。</p>
+                                    <p>4、完成对页面的测试和修改工作。</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <div class="inline exp-job">职位:前端工程师 </div>
+                                <div class="inline exp-date">日期:2013年7月至2014年5月</div>
+                                <div class="inline">名称:北京思特奇信息技术股份有限公司</div>
+                            </div>
+                            <div>
+                                <div class="inline">工作职责：</div>
+                                <div class="inline">
+                                    <p>1、页面的效果的实现(页面解构、实现、浏览器兼容性bug修复等)。</p>
+                                    <p>2、根据需求完成相应的业务功能(前端数据、业务等的处理)。</p>
+                                    <p>3、完成相关业务功能的测试和修改工作。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="title">培训经历：</div>
+                        <div>机构名称：达内科技教育集团北京中关村中心</div>
+                        <div>
+                            <div class="inline">培训日期：2012年12月—2013年5月</div>
+                            <div class="inline">培训方向：Java软件技术培训</div>
+                        </div>
+                        <div>
+                            <div class="inline">培训内容：</div>
+                            <div class="inline w550">
+                                Java语言基础、面向对象、JDK核心API、JavaSE核心、SQL语言、数据库、JDBC、JSP/Servlet、Struts2、Hibernate、Spring等JavaWeb开发相关技术。
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="title">项目经验:</div>
+                        <div>
+                            <div class="inline project-title">中国移动网上商城服务子系统</div>
+                            <div class="inline project-date">项目时间：2013年8月-2014年5月 </div>
+                            <div class="indent30">
+                                <p>
+                                    该项目目标用户量大、最终采用富客户端编程方式、产品最终为一单页web应用。在该项目中从事前端开发工作。根据业务需求，使用面向对象的JS对页面进行合理解构、封装、及功能的实现，同时解决浏览器(IE6+ Chrome Firefox Safari等)兼容性问题。业务方面主要负责充值交费、充值卡充值、充值号码簿、业务查询退订、商品收藏、等功能模块的实现。
+                                </p>
+                                <p>
+                                    通过该项目深入了解和学习了HTML、CSS、JS等技术，对前端领域有了更深的认识、开始步入前端开发。积累了前端MVC、存储、前后端交互的经验，同时学会了页面的合理解构、用JS进行基础组件开发、如何避免一些兼容性问题等，为前端开发打下了良好的基础。
+                                    <p>
+                            </div>
+                        </div>
 
-				<div>
-					<div class="inline project-title">Java Web应用程序快速开发的MVC框架的设计</div>
-					<div class="inline project-date">项目时间：2013年4月-2013年6月  </div>
-					<div class="indent30">
-						<p>
-							该项目采用MVC设计模式，借鉴Struts2，利用XML、DOM4J、Java反射机制、代理模式、CGLIB、Servlet、Filter、Log4j等技术，设计与实现了一个Java Web应用中可应用于表现层MVC框架。采用XML配置文件的方式对应映射关系，使用Filter来过滤请求，交由处理器进行相应请求的处理及视图结果的返回。
-						</p>
-						<p>
-							通过对该框架的设计与实现，对MVC设计模式有了更加深刻的认识和理解，同时对Struts2的实现原理等有了深刻的认识和理解。
-						<p>
-					</div>
-				</div>
-			</div>
-			<div>
-				<div class="title">获奖情况：</div>
-				<div class="indent30">
-					<p>获得第六届全国信息技术应用水平大赛(ITAT)C语言程序设计组三等奖；</p>
-					<p>获得迎校庆网页设计大赛三等奖；</p>
-					<p>获得Ubase数据库管理系统设计大赛三等奖；</p>
-					<p>获得2011-2012年度国家励志奖学金、中粮二等奖学金；</p>
-					<p>获得2011-2012年度三好学生标兵荣誉称号；</p>
-				</div>
-			</div>
-			<div>
-				<div class="title">自我评价：</div>
-				<div class="indent30">
-					<p>
-						自学能力强，善于接受新事物。为人热情好学、能承受一定的压力。具有良好的职业道德，饱满的工作热情。善于与同事交流沟通，能以较强的团队合作精神，快速的融入开发团队。在前端方面正在逐渐成长、需要掌握的技能较多、尚需努力。
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>  
-      </div>
+                        <div>
+                            <div class="inline project-title">清晏九洲官网开发</div>
+                            <div class="inline project-date">项目时间：2014年5月-至今 </div>
+                            <div class="indent30">
+                                <p>
+                                    该项目为实现企业官网开发工作。在项目中主要负责前后端交互、数据定义、页面数据交互、效果呈现、解决浏览器兼容性问题、前端页面优化等工作。
+                                </p>
+                                <p>
+                                    对前端开发及企业官网有了更多的认识、该项目中不仅要求浏览器的兼容性、同时重视页面各种效果的实现。在该项目中积累了图片切换、轮播、弹出、遮罩、下拉等效果的实现、在页面表现层有了横向的拓展。
+                                    <p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="inline project-title">Java Web应用程序快速开发的MVC框架的设计</div>
+                            <div class="inline project-date">项目时间：2013年4月-2013年6月 </div>
+                            <div class="indent30">
+                                <p>
+                                    该项目采用MVC设计模式，借鉴Struts2，利用XML、DOM4J、Java反射机制、代理模式、CGLIB、Servlet、Filter、Log4j等技术，设计与实现了一个Java Web应用中可应用于表现层MVC框架。采用XML配置文件的方式对应映射关系，使用Filter来过滤请求，交由处理器进行相应请求的处理及视图结果的返回。
+                                </p>
+                                <p>
+                                    通过对该框架的设计与实现，对MVC设计模式有了更加深刻的认识和理解，同时对Struts2的实现原理等有了深刻的认识和理解。
+                                <p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="title">获奖情况：</div>
+                        <div class="indent30">
+                            <p>获得第六届全国信息技术应用水平大赛(ITAT)C语言程序设计组三等奖；</p>
+                            <p>获得迎校庆网页设计大赛三等奖；</p>
+                            <p>获得Ubase数据库管理系统设计大赛三等奖；</p>
+                            <p>获得2011-2012年度国家励志奖学金、中粮二等奖学金；</p>
+                            <p>获得2011-2012年度三好学生标兵荣誉称号；</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="title">自我评价：</div>
+                        <div class="indent30">
+                            <p>
+                                自学能力强，善于接受新事物。为人热情好学、能承受一定的压力。具有良好的职业道德，饱满的工作热情。善于与同事交流沟通，能以较强的团队合作精神，快速的融入开发团队。在前端方面正在逐渐成长、需要掌握的技能较多、尚需努力。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     {% include footer.html %}
-
-  </body>
+	<script type="text/javascript" src="../static/js/resume.js"></script>
+</body>
 
 </html>
