@@ -9,7 +9,7 @@ layout: default
   </div>
   <br/>
   <h1 class="page-heading">文章列表</h1>
-  
+ 
   <ul class="post-list">
   {% for post in paginator.posts %}  
   	{% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
