@@ -1,5 +1,4 @@
 /*Resume*/
-
 .content {
 	width: 640px;
 	margin: 10px auto;
@@ -8,52 +7,52 @@
 	background: #fff;
 	border: 1px solid #dadada;
 }
-.top {
+.resume .top {
 	text-align: center;
 }
-.top-title {
+.resume .top-title {
 	margin: 10px auto;
 	width: 240px;
 	height: 50px;
 	line-height: 50px;
 	font-size: 32px;
 }
-.title {
+.resume .title {
 	width: 100%;
 	font-size: 18px;
 	text-indent: 10px;
 	background-color: #dadada;
 	color: #6C6C6C;
 }
-.photo {
+.resume .photo {
 	height: 175px;
 	width: 120px;
 	margin: 10px 15px;
 }
-.exp-job {
-	width: 150px;
+.resume .exp-job {
+	width: 140px;
 }
-.exp-date {
-	width: 200px;
+.resume .exp-date {
+	width: 210px;
 }
-.project-title {
+.resume .project-title {
 	width: 320px;
 	font-weight: bolder;
 }
-.project-date {
+.resume .project-date {
 	width: 300px;
 	text-align: right;
 }
-.indent30 {
+.resume .indent30 {
 	text-indent: 30px;
 }
-.w150 {
+.resume .w150 {
 	width: 150px;
 }
-.w250 {
+.resume .w250 {
 	width: 250px;
 }
-.w475 {
+.resume .w475 {
 	width: 475px;
 }
 .w550 {

@@ -335,9 +335,15 @@ var MGRES_SERV_PATH2=""+RELATIVE_PATH;//图片服务器url2
 */
 IMAGES = {
 	/**
-	*@param 合成图标
+	*@description 内容加载效果图
 	*/
-	ICON:{
+	LOADING:{
+		SIZE32:{'background-image':"url("+IMGRES_SERV_PATH1+"static/images/loading.gif)"},
+		SIZE16:{'background-image':"url("+IMGRES_SERV_PATH1+"static/images/loading-16.gif)"}
+	}
+}
+
+ICONS = {
 		/*@description 16*16大小图标*/
 		SIZE16:{
 
@@ -354,20 +360,7 @@ IMAGES = {
 		SIZEMIX:{
 
 		}
-	},
-   /**
-	*@description 独立图片
-	*/
-	IMAGE:{
-		/**
-		*@description 内容加载效果图
-		*/
-		 LOADING:{
-				SIZE32:{'background-image':"url("+IMGRES_SERV_PATH1+"static/images/loading.gif)"},
-				SIZE16:{'background-image':"url("+IMGRES_SERV_PATH1+"static/images/loading-16.gif)"}
-		 }
-	}
-};
+}
 
 
 

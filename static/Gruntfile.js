@@ -32,8 +32,8 @@ module.exports = function (grunt) {
                 report: "min",
                 //beautify:true,
                 //sourceMapRoot: '',
-                sourceMap: 'js/*.min.js.map',
-                sourceMapUrl: '*.min.js.map',
+                //sourceMap: 'js/*.min.js.map',
+                //sourceMapUrl: '*.min.js.map',
                 compress: {
                     drop_console: true
                 }

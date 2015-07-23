@@ -2,7 +2,7 @@
 title: ZhengZhiKun
 email: admin@akunsoft.com
 description: > # this means to ignore newlines until "baseurl:"
-  一只前端领域的小小鸟，正在逐渐成长
+    假装是前端，在渣coder的路上渐行渐远
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://zhengzhikun.cn" # the base hostname & protocol for your site
 github_username:  zhengzk
@@ -12,7 +12,7 @@ encoding: utf-8
 # Build settings
 markdown: kramdown
 encoding: utf-8
-exclude: [CNAME,static/src,static/node_modules,static/temp,static/tmp]
+exclude: [CNAME,static/src,static/node_modules,static/temp,static/tmp,static/package.json,static/Gruntfile.js,static/csscomb.json]
 
 paginate: 10 
 paginate_path: "page:num"  

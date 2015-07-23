@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title:  "开始使用github pages"
 date:   2014-08-31 23:41:06
 categories: blog
