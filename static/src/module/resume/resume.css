@@ -7,6 +7,9 @@
 	background: #fff;
 	border: 1px solid #dadada;
 }
+.resume p{
+    margin-bottom: 0;
+}
 .resume .top {
 	text-align: center;
 }
@@ -36,11 +39,11 @@
 	width: 210px;
 }
 .resume .project-title {
-	width: 320px;
+	width: 345px;
 	font-weight: bolder;
 }
 .resume .project-date {
-	width: 300px;
+	width: 280px;
 	text-align: right;
 }
 .resume .indent30 {

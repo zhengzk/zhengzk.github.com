@@ -90,5 +90,5 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-clean');
     // 默认被执行的任务列表。
     grunt.registerTask('default', ['concat:script', 'uglify']);
-    grunt.registerTask('css', ['concat:style','csscomb', 'cssmin']);
+    grunt.registerTask('css', ['concat:style','csscomb', 'cssmin','clean']);
 };
