@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title:  "使用jdbc连接数据库的方法详解"
 date:   2012-12-17 12:00:00
 categories: java
