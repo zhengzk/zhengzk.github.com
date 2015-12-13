@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "如何搞砸一场面试"
+title:  "一次失败的面试经历"
 date:   2015-07-24 12:00:00
 categories: experience
 ---
